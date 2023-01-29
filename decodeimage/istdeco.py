@@ -2,8 +2,8 @@ import torch
 import copy
 import numpy as np
 from typing import Union, Tuple
-from codebook import Codebook
-from psf import PSF
+from .codebook import Codebook
+from .psf import PSF
 
 
 class ISTDeco:
